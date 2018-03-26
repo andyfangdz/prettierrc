@@ -6,6 +6,7 @@
     "type": "git",
     "url": "https://github.com/andyfangdz/prettierrc"
   },
+  "private": false,
   "keywords": [
     "prettier",
     "config",
