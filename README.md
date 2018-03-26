@@ -1,6 +1,8 @@
 
 # andyfangdz Prettier Config
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/andyfangdz/prettierrc.svg)](https://greenkeeper.io/)
+
 Based on `sourcegraph/prettierrc`
 
 ## Usage
