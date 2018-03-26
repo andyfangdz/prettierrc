@@ -2,6 +2,8 @@
 # andyfangdz Prettier Config
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/andyfangdz/prettierrc.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/andyfangdz/prettierrc.svg?branch=master)](https://travis-ci.org/andyfangdz/prettierrc)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
 Based on `sourcegraph/prettierrc`
 
