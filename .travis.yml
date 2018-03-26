@@ -1,11 +1,17 @@
 language: node_js
-
 node_js:
-  - '9'
-
+- '9'
 cache:
+  yarn: true
   directories:
-    - $HOME/.npm
-
+  - node_modules
+  - "$HOME/.npm"
+install: yarn
 script:
-  - npm run prettier
+- yarn prettier
+before_install: yarn global add greenkeeper-lockfile@1
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload
+env:
+  global:
+    secure: aOvz7hbApfVzR7WJSfbKWmtZWLFw5yre2ilfrYLJaDR9oGQTAYtbU/VDMOthWFd5hdXfPN16Iwh0nnMoQqOi4Mgpk5D17y2FdeHcxhOlYAtb0c9R4Lykm6e7FR1JTMYCc/m/qWR7FKYlVBHSgCPUBWnldI20QFHVRDnHygL371zM9xh9HMpaNmd69+lv2ql2QcCBYMITvriyivO0PtsEUbgMOg7tMysP95QyMkXowoXRjygxXM75KF/n2SSlS4So4hYXNx1OjpUl6BrPNw6IXRSOxBLSVBGYSdR33o6jQ/7gBCRoIqEDYFEurF9O3lNReG3uZQ/e9uRoc6NUMdONbTrkuqXkpNYC4Eum1bKP4Vbah37rhdZzBkYPxs9x+17fwNB249H+ftBKOvAsCFa5wophbD5PIWvmygogaZ3NkqCNWESlo3P9VD3Y6Y/k4A2/ZP08bu7B49ZUzGK3uGpzO/bbPmnGfvMGnQxg+g2gP7XX5tHz11/6F1f8JDHyQYzIzQDWHKBIrFpSH1/fV3SmcoBwIg9MlUwRJoeP0xYDvJ9GRDmWBrBOlATpU4BPiuaQOiMQydqu+K6Z4afNsnU/1HFwXLNEiq9Ob2Rmx8BmsTU2+aZt9roRJnl+XtQy7fry3umspSGUQHGOjpvEbDVH9bHAngVQtFH9uUq2jlc68Mo=
