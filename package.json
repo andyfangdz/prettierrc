@@ -1,6 +1,6 @@
 {
   "name": "@andyfangdz/prettierrc",
-  "version": "2.1.1",
+  "version": "3.1.1",
   "main": "prettier.config.js",
   "repository": {
     "type": "git",
@@ -14,6 +14,9 @@
   ],
   "scripts": {
     "prettier": "npx prettier prettier.config.js --list-different --write"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "devDependencies": {
     "prettier": "^1.11.1"

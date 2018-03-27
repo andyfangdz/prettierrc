@@ -3,7 +3,7 @@ module.exports = {
   printWidth: 80,
   proseWrap: 'preserve',
   semi: true,
-  trailingComma: 'all',
+  trailingComma: 'es5',
   singleQuote: true,
   overrides: [
     {
