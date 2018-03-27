@@ -1,17 +1,13 @@
 {
   "name": "@andyfangdz/prettierrc",
-  "version": "3.1.1",
+  "version": "4.1.1",
   "main": "prettier.config.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/andyfangdz/prettierrc"
   },
   "private": false,
-  "keywords": [
-    "prettier",
-    "config",
-    "formatting"
-  ],
+  "keywords": ["prettier", "config", "formatting"],
   "scripts": {
     "prettier": "npx prettier prettier.config.js --list-different --write"
   },
