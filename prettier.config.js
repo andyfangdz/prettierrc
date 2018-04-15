@@ -12,6 +12,5 @@ module.exports = {
         tabWidth: 2
       }
     }
-  ],
-  cssEnable: ["css", "less", "sass"]
+  ]
 };
