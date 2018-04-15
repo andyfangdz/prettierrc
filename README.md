@@ -19,6 +19,15 @@ Then add this `prettier.config.js` to the project:
 module.exports = require('@andyfangdz/prettierrc')
 ```
 
+Example scripts to go in `package.json`:
+
+```json
+{
+    "prettier": "prettier --write src/**/*.js src/**/*.jsx src/**/*.css src/*.jsx src/*.js",
+    "prettier-watch": "onchange 'src/*.jsx' 'src/*.js' 'src/**/*.js' 'src/**/*.jsx' 'src/**/*.css' -- prettier --write {{changed}}"
+}
+```
+
 ## Making changes
 
 ```
