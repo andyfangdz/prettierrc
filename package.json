@@ -1,6 +1,6 @@
 {
   "name": "@andyfangdz/prettierrc",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "main": "prettier.config.js",
   "repository": {
     "type": "git",
