@@ -19,6 +19,6 @@
     "access": "public"
   },
   "devDependencies": {
-    "prettier": "^1.18"
+    "prettier": "^2.0.1"
   }
 }
